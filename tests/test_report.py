@@ -60,7 +60,8 @@ def test_format_report_with_data():
     assert "GHI (W/m²)" in report
     assert "DNI (W/m²)" in report
     assert "DHI (W/m²)" in report
-    assert "DWD-ICON GHI (W/m²)" in report
+    assert "DWD GHI (W/m²)" in report
+    assert "Charge Wt" in report
     assert "2024-07-31 00:00" in report
     assert "2024-07-31 06:00" in report
     assert "2024-07-31 12:00" in report
